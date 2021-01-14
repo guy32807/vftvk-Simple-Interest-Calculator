@@ -21,6 +21,7 @@ function compute()
     }
     else{
         alert("Please enter a valid numeric dollar amount!")
+        document.getElementById("principal").focus()
     }
  
 }
